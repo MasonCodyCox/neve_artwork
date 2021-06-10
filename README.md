@@ -1,59 +1,173 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Neves Artwork
 
-Welcome MasonCodyCox,
+Weclome to my artwork website based on Neve's artwork. this website should be able to advertise her work 
+in a way that users wil be drawn in to purchase it.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+I want users to be able to log in and view items based on a sett of filters they choose. This will be very good for user experience 
+as this will narrow down searches to whatt users are most interested in.
 
-## Gitpod Reminders
+## Design Process 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+When i initally thought about creating this artwork store, I sketched some ideas down onto my IPad. 
+Learning to what extent you can customise your site with the power of django and allauth, there are endless ideas 
+that i would love to impliment throughout my site. Having the power of a super user really changed my perspective on the site too. 
+A super user enabled the site creator/ any admins to have full CRUD functionality within the site.
 
-`python3 -m http.server`
+## Wireframes/ Mock ups
 
-A blue button should appear to click: _Make Public_,
+- These are all found within the assets folder. Please go to assets > wireframes.
 
-Another blue button should appear to click: _Open Browser_.
+## User Experience
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### User Stories
 
-A blue button should appear to click: _Make Public_,
+* I want to be able to store information for log in.
+* I want to be able to search for a specific piece of artwork.
+* I want to be able to update my information or delete it if needed.
+* I dont want other people to be able to update or delete my information.
+* I want an easy navigation layout for the website.
 
-Another blue button should appear to click: _Open Browser_.
+These needs are met by;
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* Implimenting allauth within my website.
+* A navbar search bar for the entire site. (work in progress)
+* A profile page for users to access. (work in progress)
+* A simple yet effective navigation bar that will not break from clicking between pages in any 
+order. And, adapts to screen size.
 
-To log into the Heroku toolbelt CLI:
+### Strategy Plane 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+##### Website Goals;
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+* A safe way to store information.
+* Create an easy to use website.
+* Use simple yet effective ways to impliment allauth for ease of access.
+* Create a website that would be effective in all age groups.
+* Easy CRUD functionality.
 
-## Updates Since The Instructional Video
+### Scope Plane 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The home page contains a clear and vibrant piece of artwork designed by Neve to 
+instantly display what she is capable of. The website uses a django allauth to 
+store user authentication. overall, the entire site enables CRUD functionality.
+The Navbar is has bootstrap implemented for ease of access from different screen sizes.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Structure Plane 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The aim of the structure is to allow users to navigate through the site with ease. 
+The home page contains a picture to instantly show users artwork.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Skeleton Plane 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+1. Navbar that changes based on device being used.
+2. A dropdown navagtion icon for smaller screens.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Surface Plane
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+When creating this project, I thought intensly about colours that would be good for user experience.
+The colours for the main site are subtle coulours that go well together along with a bold primary colour. The 
+navbar colours were a subtle grey which is easy on the eyes for every user. I want the user to feel as if they 
+feel welcomed to the site.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Features
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+dropdown icon - Easy navagtion for smaller devices where all pages may not fit onto the screen.
 
----
+Call to action buttons - easy navigation for user from and to any page on the website.
 
-Happy coding!
+A superuser -  easy admin CRUD functionality to the site
+
+A sale banner - a flash message which informs the user of completion, error encounters when submitting a form.
+
+### Features left to implement
+
+* links to socials - easy to use icons at the bottom of every page for additional navagation/ support.
+
+* Support page - a page in which the user can receive help/ report upon a form completion.
+
+* I still have a lot to create in terms of building this website further. Full CRUD functionality for users within their 
+profile pages would be great.
+
+## Technologies used
+
+[Stack Overflow](https://stackoverflow.com/) - I used this as a resource of skils that I needed to learn e.g Python.
+
+[W3Schools](https://www.w3schools.com/default.asp) - I used this as a resource for skills e.g Styling pieces of text.
+
+[W3Docs](https://www.w3docs.com/) - I used this to learn how to style buttons and spans.
+
+[Geeks for geeks](https://www.geeksforgeeks.org/) - I used this to learn different attributes for HTML.
+
+[Django Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html) - This was used to create my user athentication.
+
+## Testing
+
+-  The CSS was run through the https://jigsaw.w3.org/css-validator/ without any errors found.
+-  The HTML was run through the https://validator.w3.org/, the errors that are found are all related to the Jinja 
+templating.
+-  The cornflakes(flake8) lint was installed as an extension to the development and validated the Python code 
+throughout my milestone project.
+-  The site was tested on three different browsers: Google Chrome, Brave and Safari.
+-  The responsiveness was tested on a wide variety of devices such as iphones, tablets and desktops using the Chrome 
+DevTools and http://whatismyscreenresolution.net/multi-screen-test.
+
+
+## Issues 
+
+- The manage documents cards didnt sit properly when a large description was added
+- I had issues trying to get my started experiencing placeholder text to dissapear
+
+### Validation
+
+The W3C Markup Validator and the W3C CSS Validator were both used to validate every page of this project.
+Despite my efforts, the vaildation had issues reading Python code. all HTML5 and CSS passed.
+
+
+### Device testing
+
+During my project, I consistently checked the website compatibility with all device sizes to ensure the best user experience possible.
+I ensured this by using Chromes built in developer tools.
+This website works well on all device sizes although I did encounter some issues on mobile device size with the text overflow. 
+This happens when you go the the create a document page on mobiles and placeholders do not sit on their inputs.
+
+I had a number of work collegues, family and friends try the website out for feedback so that i could make improvments from early development stages 
+regarding a users experience. 
+
+
+#### Devices tested
+
+- Moto G4
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- IPhone 5/SE
+- IPhone 6/7/8
+- IPhone 6/7/8Plus
+- IPhone X
+- IPad
+- IPad Pro
+- Surface Duo
+- Galaxy Fold
+
+## Credits
+
+#### Content -
+
+The Navbar have all been copied from Bootstrap. I have now styled it in my own way to fit into my website.
+The create document form has been copied from one of my previous peices of work but styled to fit correctly with this website 
+along with added Python for functonality.
+
+[Stack Overflow](https://stackoverflow.com/) - I used this as a resource of skils that I needed to learn e.g Python.
+
+[W3Schools](https://www.w3schools.com/default.asp) - I used this as a resource for skills e.g Styling pieces of text.
+
+[W3Docs](https://www.w3docs.com/) - I used this to learn how to style buttons and spans.
+
+[Geeks for geeks](https://www.geeksforgeeks.org/) - I used this to learn different attributes for HTML.
+
+[Django Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html) - This was used to create my user athentication.
+
+#### Acknowledgments
+
+I have taken inspiration from my previous projects that have helped me construct this one. They are on my github repository
