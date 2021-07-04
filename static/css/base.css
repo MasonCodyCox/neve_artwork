@@ -58,6 +58,16 @@ body {
     background: #555 !important;
 }
 
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: rgb(236, 234, 234);
+	z-index: -1;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;

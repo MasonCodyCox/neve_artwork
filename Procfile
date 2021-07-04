@@ -1,0 +1,1 @@
+web: gunicorn neve_artwork.wsgi:application
