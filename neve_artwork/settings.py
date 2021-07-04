@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-h8w*##7pyu^)cmlgua)@m_$$$0sn9idhcb4mf28$f%5p0rv$r=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['neve_artwork.herokuapp.com', 'localhost']
 
 
 # Application definition
